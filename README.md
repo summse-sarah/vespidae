@@ -12,8 +12,8 @@ This study investigates evolution of social parasitism in vespidae. This reposit
 ## Data Availability
 
 The raw, trimmed sequence reads used in this study are deposited in the NCBI Sequence Read Archive (SRA). Depositing raw data in a public archive is a standard practice to ensure scientific reproducibility.
-*   **BioProject Accession:** `[Enter PRJNAxxxxxx here]`
-*   **SRA Accessions:** `[Enter SRRxxxxxxx, SRRxxxxxxx, ... here]`
+*   **BioProject Accession:** `[Enter code PRJNAxxxxxx]`
+*   **SRA Accessions:** `[Enter code SRRxxxxxxx, SRRxxxxxxx]`
 
 ## Repository Contents
 
@@ -25,10 +25,8 @@ The raw, trimmed sequence reads used in this study are deposited in the NCBI Seq
 │   └── partitions.txt
 ├── tree_inference
 │   ├── start_iqtree.sh
-│   ├── MFP+merge_results.txt
 │   └── Pmodel_Vespinae.treefile
 └── dating_analysis
-    ├── start_iqtree_hessian.sh
     ├── start_mcmctree.sh
     └── Pmodel_Vespinae.mcmctree.ctl
 ```
@@ -39,10 +37,8 @@ The raw, trimmed sequence reads used in this study are deposited in the NCBI Seq
     *   `partitions.txt`: The file defining the SWSC-EN partitioning scheme for IQ-TREE.
 *   `/tree_inference`: Contains files for the phylogenetic tree inference.
     *   `start_iqtree.sh`: The shell script to run the IQ-TREE analysis.
-    *   `MFP+merge_results.txt`: The output file from ModelFinder (MFP+MERGE) justifying the choice of substitution model.
     *   `Pmodel_Vespinae.treefile`: The resulting maximum likelihood tree from the IQ-TREE analysis.
 *   `/dating_analysis`: Contains files for the MCMCtree divergence time estimation.
-    *   `start_iqtree_hessian.sh`: A script to run IQ-TREE to compute the Hessian matrix, which is required for the approximate likelihood analysis in MCMCtree.
     *   `start_mcmctree.sh`: The shell script to run the MCMCtree analysis.
     *   `Pmodel_Vespinae.mcmctree.ctl`: The control file for MCMCtree, containing all parameters and calibrations for the analysis.
 
@@ -77,7 +73,7 @@ MCMCtree requires the gradients and Hessian matrix, which can be calculated usin
 cd dating_analysis
 
 # Execute the IQ-TREE script to compute the Hessian matrix
-./start_iqtree_hessian.sh
+./start_iqtree_hessian.sh 
 ```
 
 **2b. Run the MCMCtree Analysis**
