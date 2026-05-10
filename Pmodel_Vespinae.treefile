@@ -1,0 +1,178 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=76;
+	taxlabels
+	Dolichovespula_adulterina_34
+	Dolichovespula_adulterina_35
+	Dolichovespula_albida_KMP111
+	Dolichovespula_alpicola_122
+	Dolichovespula_arctica_KL01
+	Dolichovespula_arenaria_123
+	Dolichovespula_arenaria_54
+	Dolichovespula_maculata_124
+	Dolichovespula_media_KMP321
+	Dolichovespula_norvegicoides_125
+	Dolichovespula_norwegica_38
+	Dolichovespula_norwegica_57
+	Dolichovespula_omissa_144
+	Dolichovespula_omissa_145
+	Dolichovespula_omissa_15
+	Dolichovespula_pacifica_KMP268
+	Dolichovespula_saxonica_10
+	Dolichovespula_saxonica_40
+	Dolichovespula_sylvestris_59
+	Dolichovespula_sylvestris_9
+	Polistes_dominula_1
+	Polistes_dominula_2
+	Provespa_anomala_63
+	Provespa_anomala_64
+	Provespa_barthelemyi_KMP61
+	Vespa_affinis_127
+	Vespa_affinis_128
+	Vespa_basalis_129
+	Vespa_bellicosa_130
+	Vespa_bicolor_131
+	Vespa_binghami_132
+	Vespa_crabro_24
+	Vespa_crabro_25
+	Vespa_crabro_73
+	Vespa_dybowskii_V_dyb_UVM
+	Vespa_luctuosa_134
+	Vespa_mandarinia_135
+	Vespa_mandarinia_77
+	Vespa_mocsaryana_136
+	Vespa_multimaculata_79
+	Vespa_orientalis_23
+	Vespa_orientalis_26
+	Vespa_orientalis_27
+	Vespa_philippinensi_138
+	Vespa_simillima_139
+	Vespa_soror_140
+	Vespa_tropica_80
+	Vespa_tropica_81
+	Vespa_velutina_107
+	Vespa_velutina_157
+	Vespa_vivax_82
+	Vespula_acadica_109
+	Vespula_alascensis_110
+	Vespula_atropilosa_KMP431
+	Vespula_austriaca_21
+	Vespula_consobrina_112
+	Vespula_flaviceps_113
+	Vespula_flaviceps_88
+	Vespula_flavopilosa_114
+	Vespula_germanica_29
+	Vespula_intermedia_KMP112
+	Vespula_maculifrons_116
+	Vespula_pensylvanica_117
+	Vespula_pensylvanica_90
+	Vespula_rufa_19
+	Vespula_rufa_31
+	Vespula_rufa_85
+	Vespula_rufa_86
+	Vespula_shidai_118
+	Vespula_squamosa_119
+	Vespula_squamosa_91
+	Vespula_structor_93
+	Vespula_sulphurea_120
+	Vespula_sulphurea_94
+	Vespula_vidua_121
+	Vespula_vulgaris_KMP364
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Dolichovespula_adulterina_35:0.003331,((((((Dolichovespula_albida_KMP111:0.003396,(Dolichovespula_pacifica_KMP268:8.05E-4,Dolichovespula_saxonica_10:0.001182):0.010086):1.36E-4,Dolichovespula_saxonica_40:0.02173):0.001431,((Dolichovespula_alpicola_122:0.010726,(Dolichovespula_norwegica_57:0.011341,Dolichovespula_norwegica_38:0.040863):8.91E-4):2.21E-4,Dolichovespula_norvegicoides_125:0.02224):2.55E-4):7.65E-4,((Dolichovespula_arenaria_123:0.001645,Dolichovespula_arenaria_54:0.010751):0.001613,(((Dolichovespula_media_KMP321:4.53E-4,Dolichovespula_maculata_124:0.00436):0.038211,((((Provespa_anomala_63:0.003502,Provespa_anomala_64:0.019789):5.81E-4,Provespa_barthelemyi_KMP61:0.008386):0.013324,(((Vespa_affinis_127:0.005078,Vespa_affinis_128:0.01378):0.002529,Vespa_mocsaryana_136:0.029596):9.21E-4,(Vespa_basalis_129:0.024359,(((((((Vespa_bicolor_131:0.0073,Vespa_multimaculata_79:0.00346):1.27E-4,Vespa_bellicosa_130:0.017129):4.5E-5,Vespa_simillima_139:0.022836):3.4E-5,(Vespa_velutina_107:0.00321,Vespa_velutina_157:5.51E-4):3.84E-4):1.64E-4,Vespa_vivax_82:0.005316):0.001982,Vespa_luctuosa_134:0.022394):4.22E-4,((((Vespa_crabro_73:0.00476,(Vespa_crabro_24:0.029694,Vespa_crabro_25:0.022691):9.07E-4):0.0017,Vespa_binghami_132:0.04733):8.24E-4,(Vespa_dybowskii_V_dyb_UVM:0.009763,((Vespa_orientalis_27:0.007527,Vespa_orientalis_26:0.056137):9.7E-4,Vespa_orientalis_23:6.48E-4):9.24E-4):0.001844):4.05E-4,(((Vespa_mandarinia_77:0.006339,Vespa_mandarinia_135:0.012516):4.32E-4,Vespa_soror_140:0.015814):0.001576,((Vespa_tropica_80:0.004019,Vespa_tropica_81:0.011089):7.8E-4,Vespa_philippinensi_138:0.033429):0.001938):7.04E-4):2.03E-4):2.46E-4):1.88E-4):0.006969):0.002737,(((((Vespula_acadica_109:0.004367,(((Vespula_consobrina_112:0.002621,Vespula_intermedia_KMP112:8.64E-4):0.001125,(Vespula_austriaca_21:0.060848,Vespula_structor_93:0.01204):0.003022):1.48E-4,(((Vespula_rufa_31:0.011146,Vespula_rufa_86:0.014715):1.93E-4,Vespula_rufa_85:0.002028):1.17E-4,Vespula_rufa_19:0.004453):1.67E-4):2.83E-4):2.2E-4,(Vespula_atropilosa_KMP431:0.001251,Vespula_vidua_121:0.001513):0.001053):0.003866,((Vespula_squamosa_119:0.003478,Vespula_squamosa_91:0.004351):0.002223,(Vespula_sulphurea_120:0.005434,Vespula_sulphurea_94:0.014955):0.002182):0.002168):0.003453,((((Vespula_alascensis_110:0.00311,Vespula_maculifrons_116:0.004293):4.83E-4,(Vespula_flavopilosa_114:0.003239,Vespula_vulgaris_KMP364:0.003942):0.001377):7.73E-4,((Vespula_flaviceps_88:0.004406,Vespula_flaviceps_113:0.002993):5.06E-4,Vespula_shidai_118:0.006806):9.37E-4):4.2E-4,(Vespula_germanica_29:0.008196,(Vespula_pensylvanica_117:0.006777,Vespula_pensylvanica_90:0.008637):0.001499):4.66E-4):0.006086):0.003472,(Polistes_dominula_1:0.012108,Polistes_dominula_2:0.003505):0.072865):0.002658):0.011654):0.002743,(Dolichovespula_sylvestris_59:0.003761,Dolichovespula_sylvestris_9:0.005627):0.004051):0.004698):1.65E-4):8.76E-4,(Dolichovespula_omissa_145:0.0045,(Dolichovespula_omissa_144:0.001589,Dolichovespula_omissa_15:0.017922):2.94E-4):9.98E-4):0.001201,Dolichovespula_adulterina_34:0.013974):0.00252,Dolichovespula_arctica_KL01:9.0E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
