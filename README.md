@@ -1,10 +1,12 @@
 # vespidae
 uce based phylogeny with social parasites from the subfamilies polistinae and vespinae
-# Data and Scripts for: [Title of manuscript]
+# Data and Scripts for: Mode and tempo of social parasite speciation in eusocial wasps 
+
+
 
 This repository contains the analysis scripts and associated files for the manuscript:
-> **[Title of manuscript]**
-> [von Adelmannsfelden S, Gotzek G, Haertel MP, Rabeling C]
+> **Mode and tempo of social parasite speciation in eusocial wasps**
+> [von Adelmannsfelden S, Gotzek G, Härtel MP, Rabeling C]
 > *Submitted to Proceedings B*
 
 This study investigates evolution of social parasitism in vespidae. This repository provides all necessary files to replicate the phylogenetic and dating analyses presented in the paper.
