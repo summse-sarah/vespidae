@@ -1,21 +1,21 @@
-# vespidae
-uce based phylogeny with social parasites from the subfamilies polistinae and vespinae
-# Data and Scripts for: Mode and tempo of social parasite speciation in eusocial wasps 
+# Data and scripts for: Mode and tempo of social parasite speciation in eusocial wasps
 
+This repository contains the data files, analysis scripts and results required
+to reproduce the phylogenetic and divergence-time analyses presented in:
 
-
-This repository contains the analysis scripts and associated files for the manuscript:
-> **Mode and tempo of social parasite speciation in eusocial wasps**
-> [von Adelmannsfelden S, Gotzek G, Härtel MP, Rabeling C]
-> *Submitted to Proceedings B*
+> von Adelmannsfelden S, Gotzek G, Härtel MP, Rabeling C
+> *Mode and tempo of social parasite speciation in eusocial wasps*
+> Submitted to *Proceedings of the Royal Society B: Biological Sciences*
 
 This study investigates evolution of social parasitism in vespidae. This repository provides all necessary files to replicate the phylogenetic and dating analyses presented in the paper.
 
-## Data Availability
+## Data availability
 
-The raw, trimmed sequence reads used in this study are deposited in the NCBI Sequence Read Archive (SRA). Depositing raw data in a public archive is a standard practice to ensure scientific reproducibility.
-*   **BioProject Accession:** `[Enter code PRJNAxxxxxx]`
-*   **SRA Accessions:** `[Enter code SRRxxxxxxx, SRRxxxxxxx]`
+Raw sequencing reads are deposited in the NCBI Sequence Read Archive (SRA).
+
+- **BioProject:** PRJNAxxxxxx
+- **BioSamples:** SAMNxxxxxx–SAMNxxxxxx
+- **SRA runs:** SRRxxxxxxx–SRRxxxxxxx
 
 ## Repository Contents
 
