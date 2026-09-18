@@ -12,10 +12,7 @@ This study investigates evolution of social parasitism in vespidae. This reposit
 ## Data availability
 
 Raw sequencing reads are deposited in the NCBI Sequence Read Archive (SRA).
-
-- **BioProject:** PRJNAxxxxxx
-- **BioSamples:** SAMNxxxxxx–SAMNxxxxxx
-- **SRA runs:** SRRxxxxxxx–SRRxxxxxxx
+**SRA submission SUB16486282
 
 ## Repository Contents
 
